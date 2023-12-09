@@ -11,7 +11,11 @@
     "format": "eslint --cache --fix \"src/**/*.{js,jsx,ts,tsx}\" && prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "eslint-config-prettier": "^9.1.0",
+    "framer-motion": "^10.16.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -33,10 +37,5 @@
     "eslint-plugin-react-refresh": "^0.4.4",
     "typescript": "^5.3.3",
     "vite": "^5.0.0"
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
   }
 }
